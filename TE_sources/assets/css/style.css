@@ -1,0 +1,418 @@
+/* en-tête de toute les pages */
+
+#Header{
+    font-size: 12px;
+}
+
+#head_champignon{
+    display: flex;
+    justify-content: space-between;
+    background: url(../img/separator.png) repeat-x bottom;
+}
+
+#royaume{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#logo{
+    width: 200px;
+    height: auto;
+}
+
+#navigation{
+    display: flex;
+    align-items :flex-end;
+}
+
+#main{
+    background-color: white;
+}
+
+body{
+    background: url(../img/background.png);
+    width: 950px;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    font-family: SuperMario256;
+}
+
+/* Bannière */
+
+#banner_image{
+    background:url("../img/odyssey.jpg");
+    height: 300px;
+    margin-top: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px #1c1a19;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+}
+
+#banner_description{
+    position: relative; 
+    width: 1000px;
+    background-color: rgba(24, 24, 24, 0.8);
+    height: 50px;
+    border-radius: 0px 5px 5px 0px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;   
+}
+
+#banner_btn{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    bottom: 43%;
+    padding-left: 5px;
+    margin: 0%;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#block{
+    background-color: #e62310;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+    /* Opus */
+
+#opus{
+    font-size: 15px;
+    background-color: #e62310;
+    border-radius: 5px;
+    box-shadow: 1px 4px 4px #1c1a19;
+    color: #ffffff;
+    width: 250px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 5px;
+    padding: 10px;
+}
+
+#mario_artwork{
+    width: 200px;
+    height: auto;
+}
+
+/* corps de la page "Contact" */
+#title_presentation_Contact{
+    font-size: 30px;
+    margin: 10px;
+}
+
+#text_body_contact{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#presentation_contact{
+    font-size: 30px;
+    margin: 10px;
+    color: #0d93d6;
+    margin-left: auto;
+}
+
+#text_specify_bloc_text{
+    font-size: 20px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+#form_nom{
+    width: 940px;
+    height: 35px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #ffc1ba;
+    border-radius: 5px;
+    margin-bottom: 3px;
+}
+
+#form_email{
+    width: 940px;
+    height: 35px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #ffc1ba;
+    border-radius: 5px;
+    margin-bottom: 3px;
+}
+
+#form_categorie{
+    width: 940px;
+    height: 45px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #ffc1ba;
+    border-radius: 5px;
+    margin-bottom: 3px;
+}
+
+#form_message{
+    width: 940px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #ffc1ba;
+    border-radius: 5px;
+    margin-bottom: 3px;
+    height: 200px;
+    text-align: left;
+}
+
+textarea {
+    resize: none;
+}
+
+#Formulaire_position{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#Formulaire{
+    background-color:#f45140;
+    width: 940px;
+    height: 50px;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+#Title_page{
+    width: 100px;
+    height: auto;
+}
+
+#Title_page_all{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #000000;
+    font-family: SuperMario256;
+}
+
+#formulaire_mario{
+    padding-bottom: 15px;
+}
+/* corps de la page pièce/lune */
+
+#table_lune_piece{
+    width: 940px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 5px;
+}
+
+th{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+td{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#table_specify{
+    background-color: #e62310;
+    color: #ffffff;
+    text-align: left;
+    width: 960px;
+}
+
+#table_specify_2{
+    background-color:#ffc1ba;
+    color: #000000;
+    text-align: left;
+}
+
+#table_specify_3{
+    background-color:#ffffff;
+    color: #000000;
+    text-align: left;
+}
+
+#piece_img{
+    width: 100px;
+    height: auto;
+}
+
+#piece_title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+/* corps de la page "personnage" */
+
+#personnage_image{
+    width: 150px;
+    height: auto;
+    margin-left: 5px;
+}
+
+#personnage_body{
+    width: 950px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+
+#personnage_body_2{
+    width: 950px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+
+#personnage_text{
+    width: 600px;
+    margin-left: 5px;
+}
+
+/* corps page pays */
+
+#image_pays{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#image_align{
+    width: 350px;
+    height: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#aside{
+    display: flex;
+    justify-content: center;
+    margin-left: 25px;
+}
+
+body{
+    background-color: #e0e0e0;
+    width: 1000px;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#texte_main{
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+#presentation{
+    width: 700px;
+    position: relative;
+    background-color: #ffffff;
+    color: #046A9C;
+}
+
+#title_presentation{
+    font-size: 30px;
+    margin: 10px 0px;
+}
+
+#image_presentation{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#text_body{
+    display: flex;
+    flex-direction: column;
+}
+
+#paragraph{
+    color: #000000;
+}
+
+/* navigation */
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+}
+
+nav li{
+    margin-right: 15px;
+    font-family: SuperMario256;
+}
+
+nav a{
+    font-size: 1.3em;
+    color: #000000;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #e62310;
+    border-bottom: 5px solid #e62310;
+}
+
+/* Footer */
+#footer{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Font */
+@Font-face {
+	font-family: 'SuperMario256';
+	src: url('../fonts/SuperMario256.ttf') format('truetype');
+}
+
+#font_mario{
+    font-family: "SuperMario256";
+}
+
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* pied de page pour toutes les pages .HTML */
+
+#screenshots{
+    display: flex;
+    flex-direction: row;
+}
+
+h4{
+    font-family: SuperMario256;
+}
+
+#All_footer_page{
+    background: url(../img/big_separator.png) repeat-x top;
+    font-size: 25px;
+    color: #000000;
+    padding-top: 5px;
+}
+
+#Screenshots_image{
+    border: 2px solid #555;
+    width: 150px;
+    height: 100px;
+    margin-right: 3px;
+}
